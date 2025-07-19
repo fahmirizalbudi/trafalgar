@@ -1,0 +1,55 @@
+.button {
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border-radius: 55px;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1.4px solid transparent;
+    background-color: #458FF6;
+    color: #fff;
+    transition: all 0.25s ease-out;
+}
+
+.button.button--outline, .button:hover {
+    background-color: #fff;
+    color: #458FF6;
+    border-color: #458FF6;
+}
+
+.button.button--outline:hover {
+    background-color: #458FF6;
+    color: #fff;
+    border-color: transparent;
+}
+
+.navbar {
+    max-width: calc(100% - 192px);
+    margin: 0 auto;
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8e8999;
+    transition: all 0.2s linear;
+}
+
+.navbar__link.active {
+    color: #1f1534;
+    font-weight: bold;
+}
+
+.navbar__link:not(.active):hover {
+    color: #1f1534;
+}
