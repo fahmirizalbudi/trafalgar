@@ -155,7 +155,7 @@
 }
 
 .service__cards::before {
-    content: url('./trafalgar/dots.svg');
+    content: url('/trafalgar/blob.svg');
     position: absolute;
     left: 0;
     max-width: 100%;
