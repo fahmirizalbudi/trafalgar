@@ -469,4 +469,8 @@ footer {
     .navbar__close {
         display: block;
     }
+
+    .service__cards {
+        width: 100%;
+    }
 }
