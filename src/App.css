@@ -238,3 +238,68 @@
 .second__button-more {
     margin-top: 37px;
 }
+
+footer {
+    width: 100%;
+    background: linear-gradient(to left, #67C3F3 0%, #5A98F2 100%);
+}
+
+.footer {
+    min-height: 432px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__group {
+    display: flex;
+    flex-grow: 1;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.footer__trafalgar, .footer__company, .footer__region, .footer__help {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.footer__trafalgar-image {
+    width: 160px;
+    height: 41px;
+    margin-bottom: 17px;
+}
+
+.footer__trafalgar-text {
+    width: 391px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 31px;
+}
+
+.footer__trafalgar-copyright {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.footer__company-heading, .footer__region-heading, .footer__help-heading {
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer__company-lists, .footer__region-lists, .footer__help-lists {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer__company-list, .footer__region-list, .footer__help-list {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+}
