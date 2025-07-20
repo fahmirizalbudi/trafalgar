@@ -11,6 +11,7 @@ const NavigationBar = () => {
                 <a href="#" className="navbar__link">Testimonials</a>
                 <a href="#" className="navbar__link">About us</a>
             </div>
+            <span className="navbar__hamburger">☰</span>
         </nav>
     )
 }
