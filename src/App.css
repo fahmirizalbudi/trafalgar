@@ -155,7 +155,7 @@
 }
 
 .service__cards::before {
-    content: url('./blob.svg');
+    content: url('./trafalgar/dots.svg');
     position: absolute;
     left: 0;
     max-width: 100%;
@@ -164,7 +164,7 @@
 }
 
 .service__card:nth-child(3):after {
-    content: url('./dots.svg');
+    content: url('/trafalgar/dots.svg');
     position: absolute;
     right: -50px;
     z-index: -1;
