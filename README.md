@@ -18,7 +18,7 @@
 ## 🚀 Instalasi
 
 ```bash
-git clone https://github.com/fahmirzl/sihapaci.git
+git clone https://github.com/fahmirizalbudi/trafalgar.git
 cd trafalgar
 npm install
 npm run dev
